@@ -1,32 +1,8 @@
 coverage:
   status:
     project:
-      default: off
-      #frontend:
-      #  flags: frontend
-      #backend:
-      #  target: 50%
-      #  flags: backend
-      #api:
-      #  target: 89%
-      #  flags: api
-      tests:
-        target: 10%
-        flags: tests
-
-flags:
-  # filter the folder(s) you wish to measure by that flag
-  # backend:
-  #  # only include files in the backend folder
-  #  paths:
-  #    - app/backend/
-  #frontend:
-  #  paths:
-  #    - app/frontend/
-  #api:
-  #  paths:
-  #    - app/api/
-  tests:
-    paths:
-      - tests/
+      default: on
+parsers:
+  javascript:
+    enable_partials: yes
 
